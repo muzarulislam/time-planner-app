@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+}
 .container{
     min-width: 1300px;
 }
@@ -131,6 +135,12 @@ li.nav-item{
     font-size: 28px;
     width: 60px;
 }
+.pricing-content ul li:nth-child(3) span{
+    color: rgb(214, 53, 53);
+}
+.pricing-content ul li:nth-last-child(2){
+    color: rgb(214, 53, 53);
+}
 .pricing-button{
     padding: 30px 0;
 }
@@ -213,6 +223,7 @@ input[type="submit"]{
     font-size: 24px;
     font-weight: 600;
     transition: .5s;
+    border: 2px solid transparent;
 }
 input[type="submit"]:focus{
     box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .5);
@@ -358,6 +369,7 @@ input[type="submit"]:hover{
     font-size: 24px;
     font-weight: 600;
     transition: .3s;
+    border: 2px solid transparent;
     box-shadow: 3px 4px 20px 0 rgba(98, 120, 223, .3);
 }
 input[type="submit"]:hover{
